@@ -1,6 +1,7 @@
 import React from 'react';
 import styled from 'styled-components';
 import Features from '../components/Features';
+import SocialLinks from '../components/SocialLinks';
 
 const HeroSection = styled.section`
   background-color: #007bff;
@@ -33,6 +34,11 @@ const CTAButton = styled.a`
   }
 `;
 
+const SocialSection = styled.section`
+  text-align: center;
+  padding: 2rem 0;
+`;
+
 const Home = () => {
   return (
     <>
@@ -42,6 +48,10 @@ const Home = () => {
         <CTAButton href="#agendar">Agende Agora</CTAButton>
       </HeroSection>
       <Features />
+      <SocialSection>
+        <h2>Conecte-se conosco</h2>
+        <SocialLinks />
+      </SocialSection>
     </>
   );
 };
