@@ -1,5 +1,3 @@
-Claro! Aqui está a tradução do documento "Getting Started with Create React App" para o português:
-
 Começando com Create React App
 Este projeto foi inicializado com Create React App.
 Scripts Disponíveis
