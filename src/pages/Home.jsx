@@ -51,9 +51,11 @@ const Home = () => {
       <SocialSection>
         <h2>Conecte-se conosco</h2>
         <SocialLinks />
-      </SocialSection>   = 
+      </SocialSection>
     </>
   );
 };
+
+/* Teste Commit   */
 
 export default Home;
