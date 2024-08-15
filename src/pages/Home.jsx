@@ -56,6 +56,4 @@ const Home = () => {
   );
 };
 
-/* Teste Commit   */
-
 export default Home;
